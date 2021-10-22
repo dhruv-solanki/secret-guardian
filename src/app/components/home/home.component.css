@@ -1,0 +1,34 @@
+.text-purple {
+    color: violet;
+}
+
+.home {
+    width: max-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: black;
+}
+
+.btn-signup {
+    background: lightskyblue;
+}
+
+.btn-login {
+    background: lightgreen;
+}
+
+/* .bg-image {
+    background-image: url('/assets/background.png');
+    background-position: center;
+    background-size: cover;
+} */
+
+/* .home-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+} */
