@@ -1,9 +1,13 @@
 <div class="signup mx-auto">
     <div class="card bg-dark text-white p-5">
-        <h2>Secret Guardian</h2>
-        <h3>Sign up</h3>
+        <h2>Secret Guardian - <span class="small">Sign up</span></h2>
         <hr>
         <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameInfo">
+                <div id="nameInfo" class="form-text">You name suggests your personality.</div>
+            </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email Address</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailInfo">
@@ -19,7 +23,7 @@
                 <label for="showPassword" class="form-check-label">Show Password</label>
             </div>
             <div class="d-grid">
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-success">Signup</button>
             </div>
         </form>
     </div>
