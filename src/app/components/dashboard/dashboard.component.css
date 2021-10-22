@@ -1,0 +1,21 @@
+.stat-tile {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 50%;
+    background: #343A40;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.text-red {
+    color: orangered;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-green {
+    color: lightgreen;
+}
